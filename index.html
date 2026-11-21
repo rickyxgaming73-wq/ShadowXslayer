@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ShadowXslayer | Gaming</title>
+<style>
+:root {
+  --bg:#090b12;
+  --red:#ff3155;
+  --cyan:#52e5ff;
+  --text:#f4f6fb;
+  --muted:#aab2c5;
+}
+* { box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+body {
+  margin:0;
+  color:var(--text);
+  background:radial-gradient(ellipse at 80% 0%,#291322,transparent 38%),
+  radial-gradient(ellipse at 5% 45%,#102a39,transparent 35%),var(--bg);
+  font-family:Arial,sans-serif;
+}
+a { color:inherit; text-decoration:none; }
+.wrap { width:min(1100px,92%); margin:auto; }
+header {
+  position:sticky; top:0; z-index:5;
+  background:#090b12ef;
+  border-bottom:1px solid #ffffff18;
+}
+nav {
+  min-height:72px; display:flex;
+  align-items:center; justify-content:space-between;
+  gap:18px;
+}
+.brand { font-weight:900; letter-spacing:1.5px; }
+.brand span,h1 span { color:var(--red); }
+.links { display:flex; gap:20px; color:var(--muted); }
+.hero {
+  min-height:550px; display:grid;
+  align-items:center; padding:70px 0;
+}
+.eyebrow,.section-tag {
+  color:var(--cyan); font-weight:bold;
+  letter-spacing:3px; text-transform:uppercase;
+}
+h1 {
+  font-size:clamp(3rem,9vw,6.7rem);
+  line-height:.92; margin:18px 0;
+}
+.lead,.intro {
+  color:var(--muted); line-height:1.7;
+  max-width:650px;
+}
+.actions {
+  display:flex; flex-wrap:wrap;
+  gap:13px; margin-top:25px;
+}
+.btn {
+  display:inline-block; padding:14px 20px;
+  border:1px solid #ffffff30;
+  border-radius:8px; font-weight:bold;
+}
+.btn.primary { background:var(--red); border-color:var(--red); }
+section { padding:65px 0; }
+h2 { font-size:clamp(2rem,5vw,3.2rem); }
+.grid {
+  display:grid; grid-template-columns:repeat(3,1fr);
+  gap:18px; margin-top:28px;
+}
+.card {
+  background:#121725; border:1px solid #ffffff20;
+  border-radius:14px; padding:24px;
+}
+.card p { color:var(--muted); line-height:1.6; }
+.banner {
+  background:linear-gradient(135deg,#30101f,#121c30,#0b303b);
+  border-radius:18px; padding:55px 20px;
+  text-align:center; font-size:2rem; font-weight:900;
+}
+.community {
+  background:#17111d; border:1px solid #ffffff20;
+  border-radius:18px; padding:30px;
+}
+footer {
+  border-top:1px solid #ffffff20;
+  padding:25px 0; color:var(--muted);
+}
+@media(max-width:700px) {
+  .grid { grid-template-columns:1fr; }
+  nav { flex-direction:column; padding:15px 0; }
+  .links { flex-wrap:wrap; }
+}
+</style>
+</head>
+<body>
+<header>
+<nav class="wrap">
+  <a class="brand" href="#home">SHADOW<span>X</span>SLAYER</a>
+  <div class="links">
+    <a href="#home">Home</a>
+    <a href="#content">Content</a>
+    <a href="blox-fruit-trade.html">Blox Fruit Trade</a>
+    <a href="#about">About</a>
+    <a href="#community">Community</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+</header>
+<main>
+<section class="hero wrap" id="home">
+  <div>
+    <div class="eyebrow">Welcome to the Shadow Army</div>
+    <h1>PLAY.<br><span>WIN.</span><br>DOMINATE.</h1>
+    <p class="lead">
+      Gaming highlights, clutch moments, challenges and Shorts.
+      Join the journey and become part of the Shadow Army.
+    </p>
+    <div class="actions">
+      <a class="btn primary" href="https://www.youtube.com/@ShadowXslayer-b2x">Subscribe on YouTube</a>
+      <a class="btn" href="#content">Explore channel</a>
+    </div>
+  </div>
+</section>
+<section class="wrap" id="content">
+  <div class="section-tag">On the channel</div>
+  <h2>Enter the game.</h2>
+  <p class="intro">Gameplay, challenges, gaming highlights and tips.</p>
+  <div class="grid">
+    <article class="card">
+      <h3>🎮 Gameplay</h3>
+      <p>Action-packed matches and memorable plays.</p>
+    </article>
+    <article class="card">
+      <h3>⚡ Challenges</h3>
+      <p>Exciting challenges and clutch moments.</p>
+    </article>
+    <article class="card">
+      <h3>📱 Shorts &amp; Tips</h3>
+      <p>Quick clips and gaming tips.</p>
+    </article>
+  </div>
+</section>
+<section class="wrap" id="about">
+  <div class="section-tag">About the creator</div>
+  <h2>One squad. One mission.</h2>
+  <p class="intro">
+    Welcome to ShadowXslayer — a gaming channel
+    for exciting gameplay and entertainment.
+  </p>
+  <div class="banner">SHADOW ARMY</div>
+</section>
+<section class="wrap" id="community">
+  <div class="community">
+    <div class="section-tag">Stay connected</div>
+    <h2>Join the community.</h2>
+    <p class="intro">Meet gamers and be part of Shadow's Domain.</p>
+    <a class="btn primary" href="https://discord.gg/G2gpq5Seb">
+      Join Shadow's Domain
+    </a>
+  </div>
+</section>
+<section class="wrap" id="contact">
+  <div class="section-tag">Contact &amp; Socials</div>
+  <h2>Connect with Shadow.</h2>
+  <div class="actions">
+    <a class="btn primary" href="mailto:Shadowx9slayer@gmail.com">Email Shadow</a>
+    <a class="btn" href="https://www.instagram.com/shadow.xgaming9/">Instagram</a>
+    <a class="btn" href="https://ig.me/j/AbZxpto9fGlpYkkz/">Instagram Group</a>
+    <a class="btn" href="https://discord.gg/G2gpq5Seb">Discord</a>
+    <a class="btn" href="https://www.youtube.com/@ShadowXslayer-b2x">YouTube</a>
+  </div>
+</section>
+</main>
+<footer>
+<div class="wrap">
+  © <span id="year"></span> ShadowXslayer
+  <p>PLAY. WIN. DOMINATE.</p>
+</div>
+</footer>
+<script>
+document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
